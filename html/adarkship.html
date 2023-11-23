@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Vit's Book Club - Home</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body class="bg-body">
+    <header class="container-fluid">
+      <div class="row header">
+        <div class="col-xs-12">
+          <div class="page-header container-fluid bg-header">
+            <h1>Vit's Book Club</h1>
+          </div>
+          <nav class="navbar bookclub-nav bg-nav">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button
+                  type="button"
+                  class="navbar-toggle collapsed"
+                  data-toggle="collapse"
+                  data-target="#bs-example-navbar-collapse-1"
+                  aria-expanded="false"
+                >
+                  <span class="sr-only">Toggle navigation</span>
+                  <i class="fa fa-list" aria-hidden="true"></i>
+                </button>
+              </div>
+              <div
+                class="collapse navbar-collapse"
+                id="bs-example-navbar-collapse-1"
+              >
+                <ul class="nav navbar-nav navbar-right">
+                  <li>
+                    <a href="index.html">
+                      <i class="fa fa-home" aria-hidden="true"></i>
+                      Home</a
+                    >
+                  </li>
+                  <li>
+                    <a href="rec-series.html">Series</a>
+                  </li>
+                  <li>
+                    <a href="rec-standalones.html">Stand-Alones</a>
+                  </li>
+                  <li>
+                    <a href="my-stories.html">More stories</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="container-fluid">
+      <div class="row row-table main">
+        <aside class="left col-md-4 col-lg-2 bg-left table-cell">
+          <h2>About This Story</h2>
+          <p>Fandom: Harry Potter</p>
+          <p>Main Characters: Severus Snape, Original Character</p>
+          <p>Summary: A potions discussion.</p>
+        </aside>
+        <article class="middle col-md-8 bg-middle table-cell">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12">
+                <h2>A Dark Ship</h2>
+                <p>
+                  The small witch made good use of her elbows to get to the
+                  front of the crowd, “Professor Snape! Professor Snape! My name
+                  is Rose Bamba, I’d like to ask you a few questions, if I may?”
+                  Snape seemed to be staring into the distance, beyond the
+                  crowd. "I’m doing a presentation at this year’s International
+                  Alchemical Conference in Cairo: Great Potioneers of the Modern
+                  Age. It’s a…” Snape’s gaze was broken at the mention of the
+                  presentation. He looked around for the source of the voice,
+                  tilting his head down he saw a small flustered witch flicking
+                  a note pad open. "And what, precisely… do you wish to know?"
+                </p>
+                <p>
+                  Rose was aware of her heart thumping in her chest, she hadn’t
+                  really expected her plan to work. “Well,” she said, “It’s
+                  known that as a student at Hogwarts you were able to modify
+                  and improve upon the preparations compiled by Libatius Borage
+                  for Advanced Potion Making.”
+                </p>
+                <p>
+                  “Yes…” Snape replied, already sounding bored. His gaze
+                  returned to the distance. Rose knew that she better make the
+                  most of this chance, while it lasted. “So, when you realised
+                  that you could maximise the extraction of juice from
+                  sopophorous beans by crushing them with a silver dagger,
+                  rather than slicing… I was wondering what would you recommend
+                  for an up-and-coming potioneer who has no silver dagger?”
+                  Snape slowly turned his head back and looked at Rose’s
+                  expectant eyes. “The potioneer... is an artist, Miss Bamba. He
+                  chooses his tools… like a painter, chooses his brush." Rose
+                  felt her brain galloping, “So you’re saying, that if they are
+                  already skilled with their tools, they will instinctively know
+                  which to choose for the best result?”
+                </p>
+                <p>Snape drew a slow breath, “Obviously.”</p>
+                <p>
+                  Rose began to scribble in her pad, but something had caught
+                  Snape’s attention. He turned saying, “Now if you’ll excuse
+                  me.” His black robes billowed behind him as he ploughed a
+                  furrow through the crowd. “Thank you, Professor!” Rose called
+                  after him, but he was already lost in the sea of faces, a dark
+                  ship on an unknown course.
+                </p>
+                <a href="friends-stories.html">
+                  <button class="btn btn-lg btn-default btn-stories">
+                    More of others
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </article>
+        <aside class="right col-lg-2 bg-right table-cell">
+          <h2>Feedback Welcome!</h2>
+          <p>
+            Have you read a story here and want to tell me what you thought? I'd
+            love to hear about it!
+          </p>
+          <form onsubmit="sendMail(); return false">
+            <input
+              class="form-control"
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              id="fullname"
+              required
+              autocomplete="name"
+            />
+            <input
+              class="form-control"
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              id="email"
+              required
+              autocomplete="email"
+            />
+            <input
+              class="form-control"
+              type="text"
+              name="title"
+              placeholder="Story Title"
+              id="title"
+              value="Jack Cappo - A Dark Ship"
+              required
+            />
+            <textarea
+              class="form-control"
+              name="description"
+              placeholder="Your Feedback"
+              id="description"
+              rows="5"
+              required
+            ></textarea>
+            <button class="btn btn-lg btn-default btn-center" type="submit">
+              Send
+            </button>
+          </form>
+        </aside>
+      </div>
+    </main>
+    <footer class="container-fluid">
+      <div class="row bg-footer">
+        <div class="footer-left col-xs-6">
+          <p>
+            If you'd like to get in touch...
+            <a href="mailto:vitaliy@gmail.com">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+            </a>
+            <a href="https://https://ru-ru.facebook.com/" target="_blank">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+          </p>
+        </div>
+        <div class="footer-right col-xs-6">
+          <p>Built by Vit</p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.emailjs.com/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_N4stiwKDu7gIsgvT4gJnc");
+      })();
+    </script>
+    <script src="assets/js/email.js"></script>
+  </body>
+</html>

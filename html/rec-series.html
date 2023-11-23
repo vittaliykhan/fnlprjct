@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Vit's Book Club - Home</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body class="bg-body">
+    <header class="container-fluid">
+      <div class="row header">
+        <div class="col-xs-12">
+          <div class="page-header container-fluid bg-header">
+            <h1>Vit's Book Club</h1>
+          </div>
+          <nav class="navbar bookclub-nav bg-nav">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button
+                  type="button"
+                  class="navbar-toggle collapsed"
+                  data-toggle="collapse"
+                  data-target="#bs-example-navbar-collapse-1"
+                  aria-expanded="false"
+                >
+                  <span class="sr-only">Toggle navigation</span>
+                  <i class="fa fa-list" aria-hidden="true"></i>
+                </button>
+              </div>
+              <div
+                class="collapse navbar-collapse"
+                id="bs-example-navbar-collapse-1"
+              >
+                <ul class="nav navbar-nav navbar-right">
+                  <li>
+                    <a href="index.html">
+                      <i class="fa fa-home" aria-hidden="true"></i>
+                      Home</a
+                    >
+                  </li>
+                  <li>
+                    <a class="youarehere" href="rec-series.html">Series</a>
+                  </li>
+                  <li>
+                    <a href="rec-standalones.html">Stand-Alones</a>
+                  </li>
+                  <li>
+                    <a href="my-stories.html">More stories</a>
+                  </li>
+                  <li>
+                    <a href="friends-stories.html">More of others</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="container-fluid">
+      <div class="row row-table main">
+        <aside class="left col-md-4 col-lg-2 bg-left table-cell">
+          <h2>About Series</h2>
+          <p>
+            I have a deep admiration for reading series, and I'm thrilled to
+            hear that you share the same sentiment. There's a certain magic that
+            occurs when characters seize hold of your imagination and refuse to
+            let go. It's incredibly satisfying to know that the next book in the
+            series eagerly awaits, ready to continue unraveling their
+            enthralling story. It's like catching up on the most captivating
+            gossip with a close and trusted friend, eagerly delving into the
+            next installment of their lives. The connection and anticipation
+            that develop with these characters make reading a series an
+            incredibly immersive and delightful experience. So, let's embrace
+            the joy of series reading and embark on remarkable adventures
+            alongside our cherished fictional companions!
+          </p>
+          <p>
+            Discover my favorite series in this section! Just hover your mouse
+            over or tap on the image for a quick summary. Get ready to explore
+            captivating worlds and unforgettable characters. Happy reading!
+          </p>
+        </aside>
+        <article class="middle col-md-8 bg-middle table-cell">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12">
+                <h2>Series</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 table-cell hp">
+                <div class="content">
+                  <h3>Kholstomer</h3>
+                  <h4>by Leo Tolstoy</h4>
+                  <p>
+                    Kholstomer: The Story of a Horse, written by Leo Tolstoy, is
+                    a mesmerizing tale that delves into the inner world of a
+                    horse named Kholstomer. Tolstoy's remarkable narrative
+                    skillfully captures the consciousness and emotions of this
+                    magnificent creature, allowing readers to witness the world
+                    through the eyes of a horse. Tolstoy's exploration of
+                    Kholstomer's thoughts, desires, and struggles offers
+                    profound insights into the complexities of animal existence
+                    and raises thought-provoking questions about human-animal
+                    relationships. With its lyrical prose and philosophical
+                    undertones, Kholstomer is a captivating work that offers a
+                    unique perspective on life and our connections with the
+                    animal kingdom.
+                  </p>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-6 table-cell choclov">
+                <div class="content">
+                  <h3>MAUS</h3>
+                  <h4>by Art Spiegelman</h4>
+                  <p>
+                    Maus, a groundbreaking graphic novel by Art Spiegelman, is a
+                    poignant and powerful account of the Holocaust. Combining
+                    history and memory, Spiegelman tells the story of his
+                    father, a Polish Jew, and their complex relationship. The
+                    use of animal allegory, with Jews depicted as mice and Nazis
+                    as cats, adds a unique layer of symbolism. Through its raw
+                    and emotionally charged illustrations, Maus delves into the
+                    horrors of the Holocaust, exploring themes of survival,
+                    guilt, and the impact of trauma across generations.
+                    Spiegelman's masterful storytelling and innovative approach
+                    make Maus an unforgettable and deeply moving work of art
+                    that continues to resonate with readers worldwide.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <aside class="right col-lg-2 bg-right table-cell">
+          <h2>I am always welcome to suggestions</h2>
+          <p>Do you have some ideas? I would love to hear more.</p>
+          <form onsubmit="sendMail(); return false">
+            <input
+              class="form-control"
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              id="fullname"
+              required
+              autocomplete="name"
+            />
+            <br />
+            <input
+              class="form-control"
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              id="email"
+              required
+              autocomplete="email"
+            />
+            <br />
+            <input
+              class="form-control"
+              type="text"
+              name="title"
+              placeholder="Title & Author"
+              id="title"
+              required
+            />
+            <br />
+            <textarea
+              class="form-control"
+              name="description"
+              placeholder="What's it about?"
+              id="description"
+              rows="5"
+              required
+            ></textarea>
+            <br />
+            <button class="btn btn-lg btn-default btn-center" type="submit">
+              Send
+            </button>
+          </form>
+        </aside>
+      </div>
+    </main>
+    <footer class="container-fluid">
+      <div class="row bg-footer">
+        <div class="footer-left col-xs-6">
+          <p>
+            If you'd like to get in touch...
+            <a href="mailto:vitaliy@gmail.com">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+            </a>
+            <a href="https://https://ru-ru.facebook.com/" target="_blank">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+          </p>
+        </div>
+        <div class="footer-right col-xs-6">
+          <p>Built by Vit</p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.emailjs.com/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_N4stiwKDu7gIsgvT4gJnc");
+      })();
+    </script>
+    <script src="email.js"></script>
+  </body>
+</html>
