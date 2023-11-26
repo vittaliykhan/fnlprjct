@@ -238,7 +238,7 @@ img {
 }
 
 .choclov {
-  background-image: url(/pictures/chocolatelovers-front.jpg);
+  background-image: url(https://github.com/vittaliykhan/fnlprjct/pictures/chocolatelovers-front.jpg);
   background-size: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -249,7 +249,8 @@ img {
 }
 
 .hp {
-  background-image: url(/pictures/hp-front.jpg);
+  background-image: url(https://github.com/vittaliykhan/fnlprjct/pictures/hp-front.jpg
+);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -259,7 +260,8 @@ img {
 }
 
 .w2w {
-  background-image: url(/pictures/womantowoman-front.jpg);
+  background-image: url(https://github.com/vittaliykhan/fnlprjct/pictures/womantowoman-front.jpg
+);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -268,7 +270,7 @@ img {
   padding: 0;
 }
 .littleshop {
-  background-image: url(/pictures/ittleshop-front.jpg);
+  background-image: url(https://github.com/vittaliykhan/fnlprjct/pictures/ittleshop-front.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: overlay;
@@ -277,7 +279,7 @@ img {
   padding: 0;
 }
 .dragon {
-  background-image: url(/pictures/dragonstale-cover.jpg);
+  background-image: url(https://github.com/vittaliykhan/fnlprjct/pictures/dragonstale-cover.jpg);
   background-size: 100% 74vh;
   background-repeat: no-repeat;
   background-position: top;
@@ -287,7 +289,8 @@ img {
 }
 
 .elf-tree {
-  background-image: url(/pictures/elfandtree-cover.jpg);
+  background-image: url(https://github.com/vittaliykhan/fnlprjct/pictures/elfandtree-cover.jpg
+);
   background-size: 100% 74vh;
   background-repeat: no-repeat;
   background-position: top;
@@ -333,7 +336,8 @@ img {
 }
 
 .bluebronze {
-  background-image: url(/pictures/beyondblueandbronze.png);
+  background-image: url(https://github.com/vittaliykhan/fnlprjct/pictures/beyondblueandbronze.png
+);
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: overlay;
@@ -436,7 +440,7 @@ img {
   }
 
   .dragonstale {
-    background-image: url(../images/dragonstale-cover.jpg);
+    background-image: url(https://github.com/vittaliykhan/fnlprjct/pictures/dragonstale-cover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
