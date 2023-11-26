@@ -126,6 +126,14 @@
                   after him, but he was already lost in the sea of faces, a dark
                   ship on an unknown course.
                 </p>
+                <script>
+                  const alertTrigger = document.getElementById("liveAlertBtn");
+                  if (alertTrigger) {
+                    alertTrigger.addEventListener("click", () => {
+                      appendAlert("Books are awesome!", "success");
+                    });
+                  }
+                </script>
                 <a href="friends-stories.html">
                   <button class="btn btn-lg btn-default btn-stories">
                     More of others
