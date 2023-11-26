@@ -3,7 +3,7 @@
 /* background colours */
 
 .bg-header {
-  background-image: url(https://github.com/vittaliykhan/fnlprjct/pictures/readingeverywhere.jpg);
+  background-image: url(https://vittaliykhan.github.io/fnlprjct/pictures/readingeverywhere.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -238,7 +238,7 @@ img {
 }
 
 .choclov {
-  background-image: url(https://github.com/vittaliykhan/fnlprjct/pictures/chocolatelovers-front.jpg);
+  background-image: url(https://vittaliykhan.github.io/fnlprjct/pictures/chocolatelovers-front.jpg);
   background-size: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -249,7 +249,7 @@ img {
 }
 
 .hp {
-  background-image: url(https://github.com/vittaliykhan/fnlprjct/pictures/hp-front.jpg
+  background-image: url(https://vittaliykhan.github.io/fnlprjct/pictures/hp-front.jpg
 );
   background-size: cover;
   background-repeat: no-repeat;
@@ -260,7 +260,7 @@ img {
 }
 
 .w2w {
-  background-image: url(https://github.com/vittaliykhan/fnlprjct/pictures/womantowoman-front.jpg
+  background-image: url(https://vittaliykhan.github.io/fnlprjct/pictures/womantowoman-front.jpg
 );
   background-size: cover;
   background-repeat: no-repeat;
@@ -270,7 +270,7 @@ img {
   padding: 0;
 }
 .littleshop {
-  background-image: url(https://github.com/vittaliykhan/fnlprjct/pictures/ittleshop-front.jpg);
+  background-image: url(https://vittaliykhan.github.io/fnlprjct/pictures/ittleshop-front.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: overlay;
@@ -279,7 +279,7 @@ img {
   padding: 0;
 }
 .dragon {
-  background-image: url(https://github.com/vittaliykhan/fnlprjct/pictures/dragonstale-cover.jpg);
+  background-image: url(https://vittaliykhan.github.io/fnlprjct/pictures/dragonstale-cover.jpg);
   background-size: 100% 74vh;
   background-repeat: no-repeat;
   background-position: top;
@@ -289,7 +289,7 @@ img {
 }
 
 .elf-tree {
-  background-image: url(https://github.com/vittaliykhan/fnlprjct/pictures/elfandtree-cover.jpg
+  background-image: url(https://vittaliykhan.github.io/fnlprjct/pictures/elfandtree-cover.jpg
 );
   background-size: 100% 74vh;
   background-repeat: no-repeat;
@@ -336,7 +336,7 @@ img {
 }
 
 .bluebronze {
-  background-image: url(https://github.com/vittaliykhan/fnlprjct/pictures/beyondblueandbronze.png
+  background-image: url(https://vittaliykhan.github.io/fnlprjct/pictures/beyondblueandbronze.png
 );
   background-size: cover;
   background-repeat: no-repeat;
@@ -440,7 +440,7 @@ img {
   }
 
   .dragonstale {
-    background-image: url(https://github.com/vittaliykhan/fnlprjct/pictures/dragonstale-cover.jpg);
+    background-image: url(https://vittaliykhan.github.io/fnlprjct/pictures/dragonstale-cover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
